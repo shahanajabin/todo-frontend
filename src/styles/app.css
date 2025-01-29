@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+.todo-container {
+    background-color: cornsilk;
+    padding: 15px;
+    width: 70vw;
+    margin: 5em;
+    text-align: center;
+}
+
+.heading {
+    display: block;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.createTask {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+
+.input {
+    width: 40%;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.add-btn {
+    width: 20%;
+    height: 24px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: cornsilk;
+}
+
+.add-btn:hover {
+    background-color: rgb(247, 229, 156);
+}
+
+.list-items {
+    display: flex;
+    margin: 0%;
+    border: 0%;
+    border: 0%;
+    justify-content: center;
+}
+
+.textName {
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+}
+
+.delete-btn {
+    width: 25%;
+    height: 24px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: cornsilk;
+    text-align: center;
+    margin-left: 60%;
+}
